@@ -37,4 +37,6 @@ A class (`z_month_finder`) that processes a date and finds its month.
 
 ## 👤 Author
 
-**Fatmanur Yılmaz** - [@yilmazfatmanur](https://github.com/yilmazfatmanur)
+**Fatmanur Yılmaz**
+
+- GitHub: [@yilmazfatmanur](https://github.com/yilmazfatmanur)
