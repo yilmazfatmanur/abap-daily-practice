@@ -10,6 +10,7 @@ A collection of small, hands-on programs I write while learning ABAP. Each proje
 |---|---------|----------|
 | 1 | [Calculator](./01-calculator) | Classes, methods, IF / CASE |
 | 2 | [Month Finder](./02-mont_fider) | Classes, date processing |
+| 3 | [Time Finder](./03-time_finder) | Classes, time processing, time zones |
 
 ### 1. Calculator
 
@@ -27,6 +28,21 @@ A class (`z_month_finder`) that processes a date and finds its month.
 **What it covers**
 - Working with date types in ABAP
 - Date processing inside a class method
+
+### 3. Time Finder
+
+A class (`z_time_finder`) that gets the current date and time and converts it to Turkey's time zone.
+
+**What it covers**
+- Getting the current timestamp with `utclong_current( )`
+- Converting a timestamp to a local date and time with `CONVERT UTCLONG ... TIME ZONE`
+- Formatting output with string templates (`DATE = ISO`, `TIME = ISO`)
+
+**Example output**
+```
+Date: 2026-11-02
+Time: 14:30:05
+```
 
 ## 🚀 How to Run
 
